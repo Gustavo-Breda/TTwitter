@@ -1,0 +1,191 @@
+/* ________________________ CSS flexbox do index ________________________ */
+
+#main-index-div {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 23%;
+  }
+
+#div-inputs {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+}
+
+#form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* ________________________ CSS flexbox do cadastro ________________________ */
+
+#main-cadastro-div {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 23%;
+}
+
+#div-section-inputs-cadastro {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+}
+
+#cadastro-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* ________________________ CSS flexbox da home ________________________ */
+
+#header-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#barra-pesquisa-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteiner-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+#main-home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pubs-home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+#barra-es-home {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.publicar-conteiner {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.btns-posts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons-post {
+    display: flex;
+    gap: 10px;
+}
+
+#barra-di-home {
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+    margin-top: 45px;
+    gap: 16px;
+}
+
+.conteiner-3 {
+    display: flex;
+    gap: 16px;
+}
+
+.conteiner-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner-5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-template {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-template {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-left: 33px;
+    margin-top: 33px;
+}
+
+.reactions-template {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reactions-template-2 {
+    display: flex;
+    gap: 30px;
+}
+
+#posts-container {
+    display: flex;
+    gap: 10px;
+    width: 60%;
+    flex-direction: column-reverse;
+}
+
+.imagem-template {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ________________________ CSS flexbox de classes ________________________ */
+
+.conteiner-1 {
+    display: flex;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.input-1 {
+    display: inline-flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 8px; 
+}
+
+.label-1{
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+}

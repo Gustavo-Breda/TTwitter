@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible", content="IE=edge">
+      <title>TTwitter</title>
+
+      <link rel = "stylesheet", href = "css/reset.css">
+      <link rel = "stylesheet", href = "css/style.css">
+      <link rel = "stylesheet", href = "css/mobile.css">
+  </head>
+
+  <body id="body-cadastro">
+
+    <main id="main-cadastro">
+
+      <div id="main-cadastro-div">
+        <div id="div-inputs-cadastro">
+          <div id="cadastro-string">
+            <p class="titulo-1">Cadastro</p>
+          </div>
+          
+          <form id="form-inputs" action="/processar_cadastro" id="cadastro-inputs" method="post">
+            <div class="conteiner-controll">
+              <div class="conteiner-form">
+                <input id="nome" type="text" name="nome" class="input-1" placeholder="nome de usuário" required>
+                <label for="nome" class="label-1">Nome</label>
+              </div>
+            </div>
+
+            <div class="conteiner-controll">
+              <div class="conteiner-form">
+                <input id="email" type="text" name="email" class="input-1" placeholder="example@email.com" required>
+                <label for="email" class="label-1">Email</label>
+              </div>
+            </div>
+
+            <div class="conteiner-controll">
+              <div class="conteiner-form">
+                <input id="datanasc" type="text" name="datanasc" class="input-1" placeholder="dd/mm/aa" required>
+                <label for="datanasc" class="label-1">Data de nascimento</label>
+              </div>
+            </div>
+              
+            <div class="conteiner-controll">
+              <div class="conteiner-form">
+                <input id="password" type="senha" name="senha" class="input-1" placeholder="Digite sua senha" required>
+                <label for="senha" class="label-1">Senha</label>
+              </div>
+            </div>
+
+            <div class="conteiner-controll">
+              <div class="conteiner-form">
+                <input id="cpassword" type="confirma-senha" name="senha" class="input-1" placeholder="Digite sua senha novamente" required>
+                <label for="confirma-senha" class="label-1">Confirmar senha</label>
+              </div>
+            </div>
+
+            <div>
+              <input id="checkbox" type="checkbox" />
+              <label for="checkbox" class="tcu">Li e estou de acordo com os <a href="" class="tcu underline">Termos</a> e <a href="" class="tcu underline">Condições de uso</a>.</label>
+            </div>
+
+            <div>
+              <button type="submit" class="btn-1">Cadastrar</button>
+            </div>
+
+            <div>
+              <button id="flogin" class="btn-2">Fazer Login</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="desktop-element">
+          <div id="div-logo-cadastro">
+            <img class="logo-TTwitter", src="images/logo.png", alt="logo do TTwitter">
+          </div>
+        </div>
+      </div>
+
+    </main>
+    
+    <script src="js/cadastro.js"></script>
+  </body>
+
+</html>

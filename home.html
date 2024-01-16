@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible", content="IE=edge">
+      <title>TTwitter</title>
+
+      <link rel = "stylesheet", href = "css/reset.css">
+      <link rel = "stylesheet", href = "css/style.css">
+      <link rel = "stylesheet", href = "css/mobile.css">
+  </head>
+
+  <body id="body-home">
+    
+    <header id="header-home">
+        <div>
+            <img id="logo-TTwitter-header", src="images/logo.png", alt="logo do TTwitter">
+        </div>
+
+        <div id="conteiner-controll">
+            <div id="barra-pesquisa-header">
+                <div id="pesquisa-input-header"><input id="caixa-pesquisa" placeholder="Buscar"></div>
+                <button id="pesquisa-botao-header"><img src="images/buscar.png" alt="botao-pesquisar"></button>
+            </div>
+        </div>
+
+        <div class="desktop-element">
+            <div id="conteiner-2">
+                <div id="nome-usuario-header">usuário</div>
+                <div class="contorno-usuario" id="cuh-header">
+                    <img alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-home">
+
+        <div class="mobile-element">
+            <div id="conteiner-mobile-1">
+                <div id="perfil-mobile">
+                        <div class="contorno-usuario" id="cuh-header">
+                            <img alt="">
+                    </div>
+                </div>
+
+                <div id="pub-mobile">
+                    <div id="pub-mobile-postar">
+                        <textarea  id="text-post-2" rows="2" placeholder="No que está pensando...?"></textarea>
+                        <button id="btn-postar-2" class="btn-5"><img src="images/anexar_emoji.png" alt="botao enviar"></button>
+                    </div>
+                    <div class="icons-post">
+                        <label for="anexar-img"><img src="images/anexar_img.png" alt="botao anexar imagem"></label>
+                        <input id="anexar-img" style="color:transparent; width:0px;" type="file" accept="image/gif, image/jpg, image/png, image/jpeg" class="btn-5"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="desktop-element">
+            <div id="barra-es-home">
+                <div class="conteiner-3">
+                    <img class="icon-1" src="images/home.png" alt="">
+                    <a href="" class="icon-name-lateral">Página inicial</a>
+                </div>
+
+                <div class="conteiner-3">
+                    <img class="icon-1" src="images/notificacoes.png" alt="">
+                    <a href="" class="icon-name-lateral">Notificações</a>
+                </div>
+
+                <div class="conteiner-3">
+                    <img class="icon-1" src="images/mensagens.png" alt="">
+                    <a href="" class="icon-name-lateral">Mensagens</a>
+                </div>
+            
+                <div class="conteiner-3">
+                    <img class="icon-1" src="images/configs.png" alt="">
+                    <a href="" class="icon-name-lateral">Configurações</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pubs-home">
+            <div id="helper" class="publicar-conteiner">
+                <textarea id="text-post" rows="3" placeholder="No que está pensando...?"></textarea>
+                <div class="btns-posts">
+                    <div class="icons-post">
+                        <label for="anexar-img"><img src="images/anexar_img.png" alt="botao anexar imagem"></label>
+                        <input id="anexar-img" style="color:transparent; width:0px;" type="file" accept="image/gif, image/jpg, image/png, image/jpeg" class="btn-5"></input>
+
+                        <button id="anexar_emoji" href="" class="btn-5"><img src="images/anexar_emoji.png" alt="botao teclado emojis"></button>
+
+                        <input id="anexar-file" style="color:transparent; width:0px;" type="file" accept="image/pdf, image/word" class="btn-5"></input>
+                        <label for="anexar-file"><img src="images/anexar_file.png" alt="botao anexar arquivo"></label>
+                    </div>
+                    <button id="btn-postar" class="btn-4">Postar</button>
+                </div>
+            </div>
+            
+            <div id="posts-container">
+                <div class="post-template">
+                    <div class="user-template">
+                        <div class="contorno-usuario" id="cuh-post">
+                            <img src="images/ex_usuario.png" alt="imagem do perfil do postador">
+                        </div>
+                        <div class="usuario-nome-template">HIDEO_KOJIMA</div>
+                    </div>
+
+                    <div class="imagem-template">
+                        <img src="images/ex-image.png" alt="imagem do post do usuario">
+                    </div>
+
+                    <div class="reactions-template">
+                        <div class="reactions-template-2">
+                            <button class="btn-curtir"><img src="images/curtir.png" alt="botao de curtir"></button>
+                            <a><img src="images/comentar.png" alt=""></a>
+                        </div>
+                        <button class="btn-salvar"><img src="images/salvar.png" alt="botao de salvar"></button>
+                    </div>
+                    
+                    <div class="text-template">
+                        <div>With Al Paccino san.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="desktop-element">
+            <div id="barra-di-home">
+                <div class="sugestao-pessoas">Pessoas que você talvez conheça</div>
+
+                <div class="conteiner-4">
+                    <div class="conteiner-5">
+                        <div class="contorno-usuario">
+                            <img alt="">
+                        </div>
+                        <div class="div-usuario">@usuario</div>
+                    </div>
+                    <button class="btn-3">Adicionar</button>
+                </div>
+
+                <div class="conteiner-4">
+                    <div class="conteiner-5">
+                        <div class="contorno-usuario">
+                            <img alt="">
+                        </div>
+                        <div class="div-usuario">@usuario</div>
+                    </div>
+                    <button class="btn-3">Adicionar</button>
+                </div>
+
+                <div class="conteiner-4">
+                    <div class="conteiner-5">
+                        <div class="contorno-usuario">
+                            <img alt="">
+                        </div>
+                        <div class="div-usuario">@usuario</div>
+                    </div>
+                    <button class="btn-3">Adicionar</button>
+                </div>
+
+                <div class="conteiner-4">
+                    <div class="conteiner-5">
+                        <div class="contorno-usuario">
+                            <img alt="">
+                        </div>
+                        <div class="div-usuario">@usuario</div>
+                    </div>
+                    <button class="btn-3">Adicionar</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <br>
+    </footer>
+    
+    <script src="js/home.js"></script>
+  </body>
+
+</html>

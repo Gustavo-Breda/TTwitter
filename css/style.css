@@ -1,0 +1,396 @@
+@import url(flexbox.css);
+
+:root {
+    --cor-preta: #222222;
+    --cor-preta-2: #484848;
+    --cor-branca-1: #F2F2F2;
+    --cor-branca-2: #DCDCDD;
+    --cor-azul-marinho: #1985A1;
+    --cor-azul-escuro: #105F74;
+    --cor-cinza-1: #4C5C68;
+    --cor-cinza-2: #46494C;
+    --cor-cinza-3: #C5C3C6;
+    
+    --fonte-principal: 'Inter', sans-serif;
+    --bg-index: var(--cor-preta);
+  }
+  
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--bg-index);
+    font-size: 16px;
+}
+
+/* ________________________ CSS do index ________________________ */
+
+#main-index-div {
+    width: 100%;
+    height: 100%;
+    padding: 8% 18%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#div-inputs {
+    background-color: var(--cor-branca-1);
+    border-radius: 20px;
+    padding: 50px;
+    height: 100%;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.f-psw {
+    text-align: right;
+    color: var(--cor-azul-escuro);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+/* ________________________ CSS do cadastro ________________________ */
+
+#main-cadastro-div {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 3% 18%;
+    box-sizing: border-box;
+}
+
+#div-inputs-cadastro {
+    background-color: var(--cor-branca-1);
+    border-radius: 20px;
+    padding: 50px;
+    height: 100%;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+#cadastro-string {
+    margin-bottom: 20px;
+}
+/* ________________________ CSS da home ________________________ */
+
+#header-home {
+    width: 100%;
+    height: 114px;
+}
+
+#logo-TTwitter-header {
+    width: 62.35px;
+    height: 60px;
+    margin-left: 45px;
+}
+
+#barra-pesquisa-header {
+    width: 823px;
+    height: 43px;
+    top: 0px; 
+    opacity: 0.20; 
+    background: var(--cor-preta-2);
+    border-radius: 25px;
+}
+
+#pesquisa-input-header {
+    margin-left: 20px;
+    width: 359px;
+}
+
+#caixa-pesquisa {
+    width: 90%; 
+    height: 100%; 
+    border: none;
+    outline: none;
+    font-size: 20px; 
+    font-weight: 400; 
+    color: var(--cor-branca-2);
+    background: var(--cor-preta-2);
+    font-family: var(--fonte-principal); 
+    word-wrap: break-word;
+}
+
+#caixa-pesquisa::placeholder {
+    color: var(--cor-branca-1);
+}
+
+#pesquisa-botao-header {
+    margin: auto 25px auto 0;
+    background-color: var(--cor-preta-2);
+    color: var(--cor-branca-1);
+    border: none;
+}
+
+#nome-usuario-header {
+    color: var(--cor-branca-1);
+}
+
+.contorno-usuario {
+    width: 50px;
+    height: 50px;
+    background-color: var(--cor-branca-1);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#cuh-header {
+    margin-right: 45px;
+}
+  
+.contorno-usuario img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sugestao-pessoas {
+    color: var(--cor-branca-1);
+    font-size: 24px;
+}
+
+.div-usuario {
+    color: var(--cor-branca-1);
+}
+
+.icon-name-lateral {
+    color: var(--cor-branca-1);
+    background-color: var(--cor-preta);
+    border: none;
+    outline: none;
+}
+
+.pubs-home {
+    width: 100%;
+}
+
+.publicar-conteiner {
+    height: 150px;
+    border: 1px #4C5C68 solid;
+}
+
+.publicar-conteiner textarea {
+    background-color: var(--cor-preta);
+    padding: 31px 0 0 31px;
+    color: var(--cor-branca-1);
+    font-family: var(--fonte-principal);
+    border: 0;
+    outline: 0;
+    resize: none;
+}
+
+
+.btns-posts {
+    padding-left: 31px;
+    padding-right: 31px;
+    height: 70px;
+}
+
+.icons-posts {
+    background-color: var(--cor-preta);
+    color: var(--cor-branca-1);
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+#caixa-1 {
+    width: 180px;
+}
+
+#publicar-input-home {
+    background-color: var(--cor-preta);
+    color: var(--cor-branca-1);
+    outline: none;
+    border: none;
+}
+
+.icon-name-lateral {
+    text-decoration: none;
+    margin: auto 0;
+}
+
+.post-template {
+    border: 1px #4C5C68 solid;
+    height: 800px;
+    width: 100%;
+}
+
+#cuh-post {
+    width: 57px;
+    height: 57px;
+}
+
+.usuario-nome-template {
+    color: var(--cor-branca-1); 
+    font-size: 24px; 
+    font-family: var(--fonte-principal); 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.imagem-template {
+    height: 509px;
+    width: 508px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem-template img {
+    max-height: 100%;
+    max-width: 100%; 
+    align-items: center;
+}
+
+.reactions-template {
+    width: 508px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-template {
+    display: flex;
+    width: 508px;
+    margin: auto auto;
+    color: var(--cor-branca-1); 
+    font-family: var(--fonte-principal); 
+}
+
+.narcacoes-template div {
+    color: var(--cor-branca-1); 
+    font-size: 16px; 
+    font-family: var(--fonte-principal); 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.btn-curtir {
+    background-color: var(--cor-preta);
+    border: none;
+}
+
+.btn-salvar {
+    background-color: var(--cor-preta);
+    border: none;
+}
+
+
+/* ________________________ CSS de classes ________________________ */
+
+.logo-TTwitter {
+    width: 293px; 
+    height: 304px
+}
+
+.titulo-1 {
+    font-family: var(--fonte-principal);
+    color: var(--cor-preta);
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.conteiner-controll {
+    border-radius: 8px;
+    height: 52px;
+    width: 100%;
+}
+
+.conteiner-form { 
+    width: 93%;
+    height: 50px;
+    position: relative;
+}
+
+.input-1 {
+    background-color: var(--cor-branca-1);
+    width: 100%;
+    height: 40px; 
+    position: absolute; 
+    padding: 15px 13px; 
+    border-radius: 6px; 
+    left: 0px; 
+    top: 8px; 
+    border: 1px var(--cor-preta) solid; 
+}
+
+.label-1 {
+    background-color: var(--cor-branca-1);
+    position: absolute; 
+    padding: 0px 4px; 
+    left: 14.29px; 
+    top: 0px; 
+}
+
+.btn-1 {
+    background-color: var(--cor-azul-escuro);
+    border-radius: 8px;
+    width: 100%;
+    height: 59px;
+    text-align: center; 
+    color: white; 
+    font-size: 16px; 
+    font-family: var(--fonte-principal); 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.btn-2 {
+    color: var(--cor-azul-escuro);
+    border: none;
+    width: 100%;
+    text-align: center; 
+    color: var(--cor-azul-escuro); 
+    font-size: 16px; 
+    font-family: var(--fonte-principal); 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.btn-3 {
+    color: var(--cor-azul-marinho);
+    background-color: var(--cor-preta);
+    font-family: var(--fonte-principal);
+    border: none;
+    outline: none;
+}
+
+.btn-4 {
+    background-color: var(--cor-azul-marinho);
+    color: black; 
+    font-size: 14px; 
+    font-family: var(--fonte-principal);
+    font-weight: 600; 
+    word-wrap: break-word;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+}
+
+.btn-5 {
+    background-color: var(--cor-preta);
+    outline: none;
+    border: none;
+}
+
+.tcu {
+    color: var(--cor-preta);
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.tcu.underline {
+    color: var(--cor-azul-escuro);
+}

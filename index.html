@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible", content="IE=edge">
+        <title>TTwitter</title>
+
+        <link rel = "stylesheet", href = "css/reset.css">
+        <link rel = "stylesheet", href = "css/style.css">
+        <link rel = "stylesheet", href = "css/mobile.css">
+    </head>
+
+    <body id="body-index">
+
+        <main id="main-index">
+
+            <div id="main-index-div">
+
+                <div class="desktop-element">
+                    <div id="div-logo">
+                        <img class="logo-TTwitter", src="images/logo.png", alt="logo do TTwitter">
+                    </div>
+                </div>
+
+                <div id="div-inputs">
+                    <div>
+                        <p class="titulo-1">Bem vindo a plataforma TTwitter</p>
+                    </div>
+                    
+                    <form action="/processar_login" id="form-inputs" method="post">
+                        <div class="conteiner-controll">
+                            <div class="conteiner-form">
+                                <input id="email" type="text" name="email" class="input-1" placeholder="example@email.com" required>
+                                <label for="email" class="label-1">Email</label>
+                            </div>
+                        </div>
+                        
+                        <div class="conteiner-controll">
+                            <div class="conteiner-form">
+                                <input id="password" type="password" name="password" class="input-1" placeholder="Digite sua senha" required>
+                                <label for="password" class="label-1">Senha</label>
+                            </div>
+                        </div>
+                        
+                        <div class="f-psw">
+                            <a href="" class="f-psw">Esqueci minha senha</a>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-1">Entrar</button>
+                        </div>
+
+                        <div>
+                            <button id="registrar" type="registrar" class="btn-2">Registrar</button>
+                        </div>
+                    </form>
+
+                    <div>
+                        <p class="tcu">Li e estou de acordo com os <a href="" class="tcu underline">Termos</a> e <a href="" class="tcu underline">Condições de uso</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        
+        <script src="js/index.js"></script>
+    </body>
+
+</html>
