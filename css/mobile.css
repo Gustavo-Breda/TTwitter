@@ -109,16 +109,16 @@
     #text-post-2 {
         font-family: var(--fonte-principal);
         background-color: var(--cor-preta);
-        color: var(--cor-branca-1);
         border-radius: 15px;
-        text-align: center;
+        margin-left: 4%;
         resize: none;
+        width: 80%;
         outline: 0;
         border: 0;
     }
 
     #btn-postar-2 {
-        margin-right: 5px;
+        margin-right: 3%;
     }
 
     #icons-post {
@@ -146,6 +146,14 @@
     .post-template {
         height: 650px;
         border-bottom: 1px #4C5C68 solid;
+    }
+
+    #conteiner-mobile-1 {
+        padding: 4% 35px;
+    }
+
+    #btn-postar-2 {
+        margin-right: 5%;
     }
 
     .imagem-template {
